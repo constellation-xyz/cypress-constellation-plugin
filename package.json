@@ -1,0 +1,27 @@
+{
+  "name": "@constellation-cloud/core",
+  "version": "3.0.0",
+  "description": "Cypress Profiler. Make automated test run faster. Measure and optimize assertion command retries.",
+  "main": "plugin.js",
+  "browser": "support.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  },
+  "homepage": "https://www.constellation.xyz",
+  "files": [
+    "plugin.js",
+    "support.js",
+    "server.js"
+  ],
+  "keywords": [
+    "cypress",
+    "cypress-plugin",
+    "assertion",
+    "profiler",
+    "testing"
+  ]
+}
